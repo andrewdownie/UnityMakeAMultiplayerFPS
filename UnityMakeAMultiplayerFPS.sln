@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityMakeAMultiplayerFPS.CSharp.Plugins", "UnityMakeAMultiplayerFPS.CSharp.Plugins.csproj", "{A0DD8C4C-ADB6-D948-FE34-D6EF69AC0904}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityMakeAMultiplayerFPS.CSharp", "UnityMakeAMultiplayerFPS.CSharp.csproj", "{1B08DE4E-D4E7-56C9-B7C4-C14E6787281F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityMakeAMultiplayerFPS.CSharp.Editor", "UnityMakeAMultiplayerFPS.CSharp.Editor.csproj", "{A8ECA31C-A54A-55A9-23E7-961F486C628D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0DD8C4C-ADB6-D948-FE34-D6EF69AC0904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0DD8C4C-ADB6-D948-FE34-D6EF69AC0904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0DD8C4C-ADB6-D948-FE34-D6EF69AC0904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0DD8C4C-ADB6-D948-FE34-D6EF69AC0904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B08DE4E-D4E7-56C9-B7C4-C14E6787281F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B08DE4E-D4E7-56C9-B7C4-C14E6787281F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B08DE4E-D4E7-56C9-B7C4-C14E6787281F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B08DE4E-D4E7-56C9-B7C4-C14E6787281F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8ECA31C-A54A-55A9-23E7-961F486C628D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8ECA31C-A54A-55A9-23E7-961F486C628D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8ECA31C-A54A-55A9-23E7-961F486C628D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8ECA31C-A54A-55A9-23E7-961F486C628D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
