@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.Networking;
 
+[RequireComponent(typeof(Player))]
 public class PlayerSetup : NetworkBehaviour {
     [SerializeField]
     Behaviour[] componentsToDisable;
@@ -26,9 +27,18 @@ public class PlayerSetup : NetworkBehaviour {
             }
             
         }
-
-        RegisterPlayer();
         
+        
+    }
+
+    public override void OnStartClient()
+    {
+        base.OnStartClient();
+
+        string _netID = GetComponent<NetworkIdentity>().netId.ToString();
+        Player _player = GetComponent<Player>();
+
+        GameManager.RegisterPlayer(_netID, _player);
     }
 
     void DisableComponents()
@@ -57,6 +67,8 @@ public class PlayerSetup : NetworkBehaviour {
         {
             sceneCamera.gameObject.SetActive(true);
         }
+
+        GameManager.UnRegisterPlayer(transform.name);
     }
 	
 }

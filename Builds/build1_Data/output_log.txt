@@ -2,14 +2,9 @@ Mono path[0] = 'C:/Users/andre/OneDrive/Development/_Unity/UnityMakeAMultiplayer
 Mono path[1] = 'C:/Users/andre/OneDrive/Development/_Unity/UnityMakeAMultiplayerFPS/Builds/build1_Data/Mono'
 Mono config path = 'C:/Users/andre/OneDrive/Development/_Unity/UnityMakeAMultiplayerFPS/Builds/build1_Data/Mono/etc'
 PlayerConnection initialized from C:/Users/andre/OneDrive/Development/_Unity/UnityMakeAMultiplayerFPS/Builds/build1_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55370
-Socket: bind failed, error: An attempt was made to access a socket in a way forbidden by its access permissions.
-(10013)
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/Sockets.cpp Line: 421)
-
-Multi-casting "[IP] 192.168.2.43 [Port] 55370 [Flags] 2 [Guid] 3483850697 [EditorId] 902147966 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-OL3NFL8) [Debug] 0" to [225.0.0.222:54997]...
-PlayerConnection already initialized - listening to [192.168.2.43:55370]
+PlayerConnection initialized network socket : 0.0.0.0 55384
+Multi-casting "[IP] 192.168.2.43 [Port] 55384 [Flags] 2 [Guid] 195828035 [EditorId] 643621542 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-OL3NFL8) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [192.168.2.43:55384]
 Initialize engine version: 5.4.1f1 (649f48bbbf0f)
 GfxDevice: creating device client; threaded=1
 Direct3D:
@@ -28,13 +23,13 @@ Platform assembly: C:\Users\andre\OneDrive\Development\_Unity\UnityMakeAMultipla
 Loading C:\Users\andre\OneDrive\Development\_Unity\UnityMakeAMultiplayerFPS\Builds\build1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\andre\OneDrive\Development\_Unity\UnityMakeAMultiplayerFPS\Builds\build1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\andre\OneDrive\Development\_Unity\UnityMakeAMultiplayerFPS\Builds\build1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.132 seconds
+- Completed reload, in  0.055 seconds
 Platform assembly: C:\Users\andre\OneDrive\Development\_Unity\UnityMakeAMultiplayerFPS\Builds\build1_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\andre\OneDrive\Development\_Unity\UnityMakeAMultiplayerFPS\Builds\build1_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.251588 ms
+UnloadTime: 0.801740 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 27d4 -> priority: 1 
+  Thread -> id: 2d9c -> priority: 1 
